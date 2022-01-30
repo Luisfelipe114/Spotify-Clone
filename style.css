@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    overflow-x: hidden;
+}
+html, body, #home {
+    height: 100%;
+}
+body {
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+                background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin-top: 100px;
+    background: white;
+}
+main .container {
+    padding-bottom: 20px;
+}
+main h1, h2 {
+    color: #7c26f8;
+    font-weight: 900;
+}
+.main2  {
+    color: white;
+}
+.main2 .row h2 {
+    color: white;
+    font-weight: 600;
+    color: #9bf0e1;
+}
+footer {
+    background: black;
+    color: white;
+    position: relative;
+}
+ul {
+    list-style: none;
+}
+footer a {
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+}
+footer a:hover {
+    text-decoration: none;
+}
+footer i {
+    color: white;
+}
+footer i:hover {
+    color: #9bf0e1;
+}
+footer .container {
+    margin-top: 20px;
+}
+/*capa*/
+
+.capa {
+    text-align: center;
+}
+.h1principal {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: white;
+    margin-bottom: 50px;
+}
+@media (max-width: 575.98px) { 
+    .btn-custom {
+        margin: 10px 15px;
+    }
+    .fa-angle-right:before {
+        content: "\f105";
+        margin-left: 30px;
+    }
+    .fa-angle-left:before {
+        content: "\f104";
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .h1principal {
+        font-size: 3em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+    .fa-angle-right:before {
+        content: "\f105";
+        margin-left: 80px;
+    }
+    .fa-angle-left:before {
+        content: "\f104";
+        margin-right: 80px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .h1principal {
+        font-size: 4em;
+    }
+    .fa-angle-right:before {
+        content: "\f105";
+        margin-left: 90px;
+    }
+    .fa-angle-left:before {
+        content: "\f104";
+        margin-right: 90px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .h1principal {
+        font-size: 5em;
+    }
+}
+@media (min-width: 1200px) { 
+    .h1principal {
+        font-size: 6em;
+    }
+    .fa-angle-right:before {
+        content: "\f105";
+        margin-left: 90px;
+    }
+    .fa-angle-left:before {
+        content: "\f104";
+        margin-right: 90px;
+    }
+}
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s ;
+    padding: 10px 15px;
+}
+.btn-roxo {
+    background: #7c25f8;
+}
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-dark .navbar-nav .nav-link  {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+.img1, .img2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.container h1{
+    padding-top: 17px;
+}
+.rotacionar {
+    margin-top: 25px;
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
